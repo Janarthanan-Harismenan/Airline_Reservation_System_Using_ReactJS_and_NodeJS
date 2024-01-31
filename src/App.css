@@ -1,0 +1,23 @@
+/*useEffect(function getUsers() {
+    async function fetchUser() {
+      try {
+        const res = await fetch("http://localhost:3031/Users");
+        const data = await res.json();
+
+        setUsers(data);
+
+        // Log the updated value of users inside this callback.
+      } catch (err) {
+        setError(err.message);
+      }
+    }
+    fetchUser();
+  }, []); */
+
+body {
+  background-image: url("https://www.discover-airlines.com/en/assets/fleet/Discover_Infopage_Image_01_Airplane_2400x1600_header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  background-repeat: no-repeat;
+}
